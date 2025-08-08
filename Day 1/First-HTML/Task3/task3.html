@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form creation</title>
+</head>
+<body>
+    <h1>Event Registration</h1>
+    <form action="my-handling-form">
+        <p>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name">
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" mail="user_email">
+        </p>
+        <p>
+            <label for="number">Phone Number:</label>
+            <input type="text" id="number" number="user_phonenumber">
+        </p>
+        <p>
+            <label for="no-of-attendees">Number of Attendees:</label>
+            <input type="number" id="number" min="1" max="10" number="user_number">
+        </p>
+
+        <p>
+            <label for="date">Date:</label>
+            <input type="date" id="date" >
+        </p>
+        <p>
+            <label for="time">Time:</label>
+            <input type="time" id="time" >
+        </p>
+        <p>
+            <label for="event">Event Type:</label>
+            <select name="simple" id="simple">
+                <option value="">select an event</option>
+                <option value="">Conference</option>
+                <option value="">Webinar</option>
+                <option value="">Workshop</option>
+            </select>
+        </p>
+        <p>
+            <label>Dietary Restrictions:</label>
+            <br>
+            <input type="checkbox">
+            <label>Vegetarian</label>
+            <input type="checkbox">
+            <label>Gluten-Free</label>
+
+       </p>
+       <p>
+        <label>T-shirt size:</label>
+        <br>
+        <input type="radio">
+        <label for="small">Small</label>
+        <input type="radio">
+        <label for="Medium">Medium</label>
+        <input type="radio">
+        <label for="Large">Large</label>
+        <input type="radio">
+        <label for="Xlarge">Xlarge</label>
+        
+
+       </p>
+       <p>
+        <label>Comments/Questions:</label>
+        <input type="text">
+       </p>
+
+
+    </form>
+
+    
+</body>
+</html>
