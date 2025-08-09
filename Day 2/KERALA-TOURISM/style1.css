@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('images/images/hero-bg.png');
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-size: cover;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+}
+.navbar-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.nav-link {
+    list-style-type: none;
+
+}
+.nav-link a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.nav-btn{
+    border: 2px solid rgb(60, 213, 119);
+    background-color: rgba(0, 0, 0 ,0);
+    padding: 10px;
+    transition: background-color 1s ease;
+
+}
+.nav-btn:hover{
+    background-color: rgb(60, 213, 119);
+
+}

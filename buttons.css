@@ -1,0 +1,25 @@
+nav ul {
+    display: flex;
+    padding: 10px 20px;
+    gap: 40px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+nav ul li{
+    list-style-type: none;
+}
+nav h1 a {
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color: red;
+    color:white;
+    
+}
+nav h4 a{
+    display:flex
+}
