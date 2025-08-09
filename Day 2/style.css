@@ -1,0 +1,23 @@
+*{
+    margin: 10;
+    padding: 10;
+}
+
+#fav-color{
+    color: brown;
+    background-color: aquamarine;
+
+}
+#friends{
+    color: black;
+    background-color: antiquewhite;
+}
+h1,h2,h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    
+}
+
+nav ul li{
+    list-style-type: none;
+}
